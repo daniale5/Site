@@ -1,0 +1,290 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.logo > img {
+	width: 160px;
+	margin: 5px;
+
+	margin-right: 15px;
+}
+
+.menu{
+
+	display: flex;
+	flex-direction: row;
+
+	justify-content: space-between;
+	background-color: #e9dcbb;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+
+
+	align-items: center;
+}
+
+nav > div {
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+nav > div > a {
+	text-decoration: none;
+	font-size: 25px;
+	color: #733520;
+}
+
+nav > div > a:hover {
+	color: #99682d
+	;
+}
+
+.banner {
+	width: 100%;
+	height: 590px;
+}
+
+.banner > img {
+	width: 100%;
+	max-height: 750px;
+}
+
+.slogan {
+	font-size: 30px;
+	color: #372d22;
+
+	position: absolute;
+	top: 80%;
+	left: 55%;
+}
+.espaco {
+	height: 4px;
+	background-color: #783422;
+}
+.parteLivros {
+	background-color: #d6c2a6;
+	padding: 30px;
+}
+.parteBox{
+	background-color: #cfb18c;
+	padding: 30px;
+}
+center > h1 {
+	color: #3a2623;
+	font-size: 35px;
+}
+center > div {
+	color: #7a3625;
+	font-size: 20px;
+}
+.liv, .box {
+	min-height: 300px;
+	padding: 15px;
+}
+.l1 {
+	background-image: url("Imagens/selecao.png");
+}
+.l2 {
+	background-image: url(Imagens/cadaver.png);
+}
+.l3 {
+	background-image: url("Imagens/anne.jpg");
+}
+.l4 {
+	background-image: url("Imagens/jogosV.jpg");
+}
+.l5 {
+	background-image: url("Imagens/harry.jpg");
+}
+.l6 {
+	background-image: url("Imagens/mentirosos.jpg");
+}
+.l7 {
+	background-image: url("Imagens/percy.png");
+}
+.l8 {
+	background-image: url("Imagens/rainha.jpg");
+}
+.l9 {
+	background-image: url("Imagens/vermelho.jpg");
+}
+.l10 {
+	background-image: url("Imagens/giz.png");
+}
+.linha, .rowBox {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+}
+.l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8, .l9, .l10{
+	flex: 1;
+}
+.l1, .l3, .l4, .l5, .l6, .l7, .l8, .l9, .l10, .l2{
+
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	display: flex;
+	align-items: flex-end;
+
+	font-size: x-large;
+	font-weight: bolder;
+
+	margin: 20px;
+	color: #7d3021;
+}
+
+.rowBox {
+	background-color: #cfb18c;
+
+}
+.b1 {
+	background-image: url("Imagens/box1.png");
+}
+.b2 {
+	background-image: url("Imagens/box2.png");
+}
+.b3 {
+	background-image: url("Imagens/box3.png");
+}
+.b1, .b2, .b3, .missao, .visao, .valores {
+	flex: 1;
+}
+.b1, .b2, .b3 {
+	border: 1px solid #7a3625;
+	border-radius: 10px;
+
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	display: flex;
+	align-items: flex-end;
+
+	font-size: xx-large;
+	font-weight: bolder;
+
+	margin: 15px;
+	color:#e9dcbb;
+}
+
+.filho{
+	position: absolute;
+	left: 20%;
+
+	/*350px*/
+}
+.adotado{
+	position: absolute;
+	left: 50%;
+
+	/*900px*/
+}
+.enteado{
+	position: absolute;
+	left: 85%;
+
+	/*1450px*/
+}
+
+.sobre {
+background-color: #d6c2a6;
+}
+
+.descricao {
+	padding: 30px;
+	text-align: center;
+	font-size: 23px;
+}
+.descricao > h2{
+	color: #783422;
+	margin: 10px;
+}
+.descricao > h4{
+	color: #3a2623;
+	margin: 10px;
+}
+.descricao > div {
+	margin: 10px;
+}
+.MVV {
+	display: flex;
+	flex-direction: row;
+
+	flex-wrap: wrap;
+
+	justify-content: center;
+
+	padding: 20px;
+}
+.missao, .visao, .valores {
+	padding: 15px;
+
+	font-size: 23px;
+
+	min-height: 300px;
+	text-align: justify;
+}
+.missao > h2, .visao > h2, .valores > h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	text-align: center;
+	color: #974943;
+}
+hr {
+	width: 25%;
+	margin: auto;
+
+	margin-bottom: 15px;
+	height: 3px;
+	background-color: #e9dcbb;
+}
+.rodape {
+	display: flex;
+	flex-direction: row;
+
+	justify-content: space-around;
+	padding: 10px;
+
+	font-size: 20px;
+	background-color: #e9dcbb;
+}
+.rodape > .col1, .rodape > .col2, .rodape > .col3{
+	flex: 1;
+	height: 350px;
+}
+.rodape > .col1 > img, .rodape > .col1 > p, .rodape > .col2 > p {
+	margin-bottom: 10px;
+}
+
+.rodape > .col2 > h2 {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.subRodape {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	justify-content: space-around;
+	align-items: center;
+
+	height: 40px;
+
+	background-color: #ecddc9;
+	color: #3a2623;
+	font-size: 18px;
+}
+
+.subRodape > .col2 > a {
+	text-decoration: none;
+	margin: 5px;
+	color:#3a2623;
+}
